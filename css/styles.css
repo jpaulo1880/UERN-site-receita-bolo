@@ -12,12 +12,6 @@ body a {
   color: rgb(204, 139, 69);
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 20px 0;
-}
-
 /* Estilos para o cabeçalho */
 header {
   background-color: rgb(166, 81, 42);

@@ -1,41 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Título do Documento</title>
-    <link rel="stylesheet" href="../css/receitas.css" />
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo de laranja simples - Sabor e Arte</title>
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <meta
       name="description"
       content="Receita de bolo de laranja simples acessível à todos."
-    />
+   >
   </head>
   <body>
     <header>
       <h1>
         <a href="../index.html">Sabor e Arte</a>
       </h1>
+      <br>
       <h3>
         <img
-          width="256"
-          height="256"
+          class="images"
           src="../images/bololaranja.jpg"
           alt="Uma imagem de um bolo de laranja"
           title="Bolo de laranja"
-        /><br />Bolo de laranja simples
+       >Bolo de laranja simples
       </h3>
     </header>
-    <nav>
-      <hr />
-      <form action="../index.html" method="get">
-        <button>Voltar a home</button>
-      </form>
-      <form action="bolo-nozes.html" method="get">
-        <button>Próxima receita</button>
-      </form>
-      <hr />
-    </nav>
     <section class="recipe-section">
       <h2>Vídeo passo-a-passo</h2>
       <div class="video-container">
@@ -49,7 +39,7 @@
           allowfullscreen
         ></iframe>
       </div>
-      <hr />
+
       <article>
         <h4>Ingredientes:</h4>
         <ul>
@@ -97,14 +87,12 @@
       </article>
     </section>
     <nav>
-      <hr />
-      <form action="../index.html" method="get">
-        <button>Voltar a home</button>
-      </form>
-      <form action="bolo-laranja.html" method="get">
-        <button>Próxima receita</button>
-      </form>
-      <hr />
+      <a class="inlineNavBtnL" href="bolo-nozes.html"
+        ><p><strong>Próxima receita</strong></p></a
+      >
+      <a class="inlineNavBtnR" href="../index.html"
+        ><p><strong>Voltar à home</strong></p></a
+      >
     </nav>
     <footer>
       <address>
@@ -112,6 +100,5 @@
         Piracicaba/SP
       </address>
     </footer>
-    <script src="scripts.js"></script>
   </body>
 </html>

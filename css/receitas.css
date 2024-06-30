@@ -4,20 +4,44 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
+  background-color: rgb(240, 239, 239);
   margin: 0;
   padding: 0;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 20px 0;
+body a {
+  text-decoration: none;
+  color: rgb(204, 139, 69);
+}
+
+.images {
+  max-width: 256px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inlineNavBtnL {
+  display: inline-block;
+  text-align: left;
+  padding-left: 40%;
+}
+
+.inlineNavBtnR {
+  display: inline-block;
+  text-align: right;
+  padding-left: 1%;
+}
+
+body nav {
+  display: inline;
 }
 
 /* Estilos para o cabeçalho */
 header {
-  background-color: #4caf50;
+  background-color: rgb(166, 81, 42);
   color: white;
   text-align: center;
   padding: 20px;
@@ -36,11 +60,6 @@ header h3 {
 
 header a {
   color: white;
-  text-decoration: none;
-}
-
-header a:hover {
-  text-decoration: underline;
 }
 
 /* Estilos para a seção de receita */

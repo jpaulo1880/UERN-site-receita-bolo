@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Título do Documento</title>
-    <link rel="stylesheet" href="../css/receitas.css" />
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo de nozes - Sabor e Arte</title>
+    <link rel="stylesheet" href="../css/receitas.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <meta
       name="description"
       content="Receita de bolo de nozes acessível à todos."
-    />
+   >
   </head>
   <body>
     <header>
       <h1>
         <a href="../index.html">Sabor e Arte</a>
       </h1>
+      <br>
       <h3>
         <img
-          width="256"
-          height="256"
+          class="images"
           src="../images/bolonozes.jpg"
           alt="Uma imagem de um bolo de
       nozes e passas"
           title="Bolo de nozes e passas"
-        /><br />Bolo de nozes e passas
+       >Bolo de nozes e passas
       </h3>
     </header>
-    <nav>
-      <hr />
-      <form action="bolo-laranja.html" method="get">
-        <button>Receita anterior</button>
-      </form>
-      <form action="../index.html" method="get">
-        <button>Voltar a home</button>
-      </form>
-      <hr />
-    </nav>
-    <section>
+    <section class="recipe-section">
       <h2>Vídeo passo-a-passo:</h2>
-      <iframe
-        width="320"
-        height="240"
-        src="https://www.youtube.com/embed/4kxE2aVR7sg?si=aJjhsK2i2xuhLK52"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-      <!--Demonstração do uso do player incorporado.-->
-      <hr />
+      <div class="video-container">
+        <iframe
+          width="320"
+          height="240"
+          src="https://www.youtube.com/embed/4kxE2aVR7sg?si=aJjhsK2i2xuhLK52"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <article>
         <h4>Lista de ingredientes:</h4>
         <ul>
@@ -83,15 +74,12 @@
       </article>
     </section>
     <nav>
-      <hr />
-      <form action="bolo-laranja.html" method="get">
-        <button>Receita anterior</button>
-      </form>
-      <form action="../index.html" method="get">
-        <button>Voltar a home</button>
-      </form>
-      <!-- Uso de botões para navegação -->
-      <hr />
+      <a class="inlineNavBtnL" href="bolo-laranja.html"
+        ><p><strong>Receita anterior</strong></p></a
+      >
+      <a class="inlineNavBtnR" href="../index.html"
+        ><p><strong>Voltar à home</strong></p></a
+      >
     </nav>
     <footer>
       <address>
@@ -100,5 +88,4 @@
       </address>
     </footer>
   </body>
-  <script src="scripts.js"></script>
 </html>
