@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabor e Arte</title>
+    <link rel="stylesheet" href="../site-receita/css/styles.css" />
+    <link
+      rel="icon"
+      href="../site-receita/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Receitas caseiras e acessíveis à todos."
+    />
+  </head>
+
+  <!-- Breve descrição sobre o site -->
+  <body>
+    <header>
+      <h1><a href="../site-receita/index.html">Sabor e Arte</a></h1>
+      <p>
+        Explore uma grande variedade de sabores e descubra o prazer de criar
+        pratos deliciosos em casa! De receitas simples a pratos sofisticados, um
+        mundo de inspiração culinária e dicas úteis!
+        <strong>Clique em uma das fotos</strong> para ser levado até a receita
+        correspondente.
+      </p>
+    </header>
+
+    <!-- Seção principal com as receitas -->
+    <main>
+      <a href="../site-receita/pages/bolo-laranja.html"
+        ><h2>Bolo de laranja simples</h2></a
+      >
+      <a href="../site-receita/pages/bolo-laranja.html">
+        <img
+          class="images"
+          src="../site-receita/images/bololaranja.jpg"
+          alt="Uma imagem de um bolo de
+      laranja"
+          title="Bolo de laranja"
+      /></a>
+      <p class="credits">
+        Cŕeditos: <a href="https://www.freepik.com">Freepik</a>
+      </p>
+
+      <br />
+
+      <a href="../site-receita/pages/bolo-nozes.html">
+        <h2>Bolo de nozes e passas</h2></a
+      >
+      <a href="../site-receita/pages/bolo-nozes.html">
+        <img
+          class="images"
+          width="256"
+          height="256"
+          src="../site-receita/images/bolonozes.jpg"
+          alt="Uma imagem de um bolo de
+      nozes e passas"
+          title="Bolo de nozes e passas"
+      /></a>
+      <p class="credits">
+        Cŕeditos: <a href="https://www.freepik.com">Freepik</a>
+      </p>
+
+      <br />
+    </main>
+
+    <!-- Área de feedback dos usuários -->
+    <section>
+      <h3 id="userFeedback">O que nossos usuários dizem... &DownArrow;</h3>
+      <blockquote id="showUserFeedback">
+        <p>
+          <em>
+            "Como um iniciante na cozinha, este site foi como uma bênção para
+            mim... As receitas são explicadas passo a passo, o que torna o
+            processo de assar os bolos muito menos intimidante. Fiz alguns bolos
+            e ficaram deliciosos!"</em
+          >
+        </p>
+        <p id="feedbackAuthor">-Fulano</p>
+      </blockquote>
+    </section>
+
+    <!-- Seção contato e feedback -->
+    <footer>
+      <form>
+        <label for="feedbackBox">
+          <strong
+            >Ficou com alguma dúvida? Tem alguma sugestão? Deixe uma
+            mensagem!</strong
+          ></label
+        >
+        <textarea id="feedbackBox" rows="5" cols="50"></textarea>
+
+        <button id="submitForm" type="submit">Enviar</button>
+
+        <br />
+
+        <label for="newsletter"
+          ><strong>Assine nossa newsletter:</strong></label
+        >
+        <input
+          type="email"
+          id="newsletter"
+          name="newsletter"
+          pattern="^[0-9a-zA-Z._%+-]+@[0-9a-zA-Z.-]+\.[a-zA-Z]{2,}$"
+        />
+        <button id="joinNewsletter" type="submit">Enviar</button>
+      </form>
+
+      <br />
+
+      <a id="email" href="mailto:fulanoexemplo@exemplo.com"
+        >Contato profissional</a
+      >
+
+      <br />
+
+      <address>
+        4D Tecnologia LTDA., Rua das Andorinhas, 909 B, Sala 304, Campestre,
+        Piracicaba/SP
+      </address>
+
+      <br />
+
+      <!-- Google maps incorporado com a localização -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.4669620766094!2d-35.343541926148376!3d-5.78951985712673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3ad00576bb069%3A0x7f50dc7a6bb3bf11!2sUERN%20-%20Polo%20S%C3%A3o%20Gon%C3%A7alo%20Do%20Amarante!5e0!3m2!1spt-BR!2sbr!4v1719751999666!5m2!1spt-BR!2sbr"
+        width="340"
+        height="240"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </footer>
+
+    <script src="../site-receita/scripts/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+/* Estilos específicos para a página de receita */
+
+/* Estilização geral */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header h3 {
+  font-size: 1.8em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a seção de receita */
+.recipe-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-section h2 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  text-align: center;
+}
+
+.video-container iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-section article {
+  margin-top: 20px;
+}
+
+.recipe-section h4 {
+  font-size: 1.5em;
+}
+
+.recipe-section ul,
+.recipe-section ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-section ol ol {
+  margin-top: 10px;
+}
+
+.recipe-section p {
+  margin-bottom: 10px;
+}
+
+.recipe-section dl {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-section dl dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.recipe-section dl dd {
+  margin-left: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer address {
+  font-style: normal;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
